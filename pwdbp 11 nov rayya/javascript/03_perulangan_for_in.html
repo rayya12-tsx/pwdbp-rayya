@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contoh Perulangan For In</title>
+</head>
+<body>
+
+<h2>Contoh Perulangan For In</h2>
+
+<p id="demo"></p>
+
+<script>
+var txt = "";
+var mahasiswa = {Nama:"Dzimar Rauhillah", Alamat:"Tasikmalaya", Usia:17};
+var x;
+for (x in mahasiswa) {
+  txt += mahasiswa[x] + " ";
+}
+document.getElementById("demo").innerHTML = txt;
+</script>
+
+</body>
+</html>
